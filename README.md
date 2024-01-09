@@ -37,7 +37,7 @@ python data_to_db.py /path/to/imputed.vcfs/filtered_wgs.vcf.gz vcf genome.db
 # Alternatively use 23andme_v3_blank.tsv, 23andme_v5_blank.tsv or 23andme_merged_v3v4v5_blank.tsv
 python db_to_23.py genome.db all_templates_merged_blank.tsv imputed_23andme_full_short.txt
 
-# If phasing was performed before imputation you can run split_parents.py to split
+# If phasing was performed before imputation (in this case the genotype is split by | in the VCF file, e.g. G|C) you can run split_parents.py to split
 # imputed_23andme_full_short.txt into parent 1 and parent 2 files. 
 # These files can be later used in DNAGenics's Admixture Studio and G25 Studio
 python split_parents.py 
