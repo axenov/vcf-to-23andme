@@ -13,7 +13,7 @@ The data_to_db.py script accepts both compressed and uncompressed data files.
 * [plink2](https://www.cog-genomics.org/plink2/)
 
 ## Preparation
-If your autosomal file is not in 23andMe format convert it using DNA Kit Studio.
+If your autosomal file is not in the 23andMe format convert it using DNA Kit Studio.
 
 Impute your genome with the Sanger Imputation Service. In this project, the Haplotype Reference Consortium (release 1.1) and the "Pre-phasing and imputation with EAGLE2+PBWT"
 pipeline was used.
