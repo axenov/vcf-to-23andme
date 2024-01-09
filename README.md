@@ -50,5 +50,5 @@ python db_to_23.py genome.db all_templates_merged_blank.tsv imputed_23andme_full
 python split_parents.py 
 ```
 
-If there are some new SNPs, present in your original file, but missing in the result file, or you want to keep yDNA and mtDNA SNPs in the files using DNA Kit Studio.
+If there are some new SNPs, present in your original file, but missing in the result file, or you want to keep yDNA and mtDNA SNPs, merge the files using DNA Kit Studio.
 
