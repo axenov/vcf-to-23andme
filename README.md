@@ -36,7 +36,7 @@ cd /path/to/plink
 ./plink --vcf /path/to/imputed.vcfs/filtered_wgs.vcf.gz  --snps-only --recode 23 --out imputed_23andme_full
 
 cd /path/to/vcf-to-23andme
-# Construct a short file in 23andMe format
+# Construct a short file in the 23andMe format
 python data_to_db.py /path/to/original/23andme_v5_original.txt 23andme genome.db # (optional)
 python data_to_db.py /path/to/imputed.vcfs/filtered_wgs.vcf.gz vcf genome.db
 # Use all_templates_merged_blank.tsv to consider all SNPs from 23andMe v3,v4 and v5, AncestryDNA v1 and v2,
